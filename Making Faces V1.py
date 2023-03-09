@@ -4,9 +4,8 @@ text = input()                                              # get user's Text
 emos= {                                                     # create emoji dictionary
     ":)" : "😀",
     ":(" : "😞",
-    ":|" : "🤨",
-    "." : "რა გაატრაკე საქმე"
-    }
+    ":|" : "🤨"
+     }
 
 def textToEmoji(st, em):                                    # function replace  in text something from dictionary
     splitedString = st.split()                                 # split the text and get item's list
